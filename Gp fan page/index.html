@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoGP Fan Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigacija -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">MotoGP Fan Page</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trke">Trke</a></li>
+                <li><a href="#vozaci">Vozači i Timovi</a></li>
+                <li><a href="#rezultati">Rezultati</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Sekcija -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Dobrodošli na MotoGP Fan Page</h1>
+            <p>Pridružite se zajednici ljubitelja najuzbudljivijih trka motocikala na svetu!</p>
+            <a href="#trke" class="btn-primary">Saznaj više</a>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+<div class="slider">
+    <div class="slide"> <img src="image1.jpg" alt="Slide 1"> </div>
+    <div class="slide"> <img src="image2.jpg" alt="Slide 2"> </div>
+    <div class="slide"> <img src="image3.jpg" alt="Slide 3"> </div>
+    <button class="prev">Prev</button>
+    <button class="next">Next</button>
+</div>
+
+<!-- Modal -->
+<div class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+    </div>
+</div>
+
+<!-- Animirani elementi -->
+<div class="animate-on-scroll"></div>
+
+
+    <!-- Trke Sekcija -->
+    <section id="trke" class="section">
+        <h2>Kalendari trka</h2>
+        <div class="card-container">
+            <!-- Primer kartice -->
+            <div class="card">
+                <h3>Velika nagrada Italije</h3>
+                <p>Datum: 2. Jun 2024.</p>
+                <p>Staza: Mugello Circuit</p>
+                <a href="#" class="btn-secondary">Detalji</a>
+            </div>
+            <!-- Dodaj još kartica po potrebi -->
+        </div>
+    </section>
+
+    <!-- Vozači i Timovi Sekcija -->
+    <section id="vozaci" class="section">
+        <h2>Vozači i Timovi</h2>
+        <div class="card-container">
+            <!--kartice za vozača -->
+            <div class="card">
+                <h3>Marc Marquez</h3>
+                <p>Tim: Gresini Racing</p>
+                <a href="#" class="btn-secondary">Profil</a>
+            </div>
+            <div class="card">
+                <h3>Francesco Bagnaia</h3>
+                <p>Tim: Ducati Lenovo Team</p>
+                <a href="#" class="btn-secondary">Profil</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rezultati Sekcija -->
+    <section id="rezultati" class="section">
+        <h2>Najnoviji rezultati</h2>
+        <table class="results-table">
+            <thead>
+                <tr>
+                    <th>Pozicija</th>
+                    <th>Vozač</th>
+                    <th>Tim</th>
+                    <th>Vreme</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Francesco Bagnaia</td>
+                    <td>Ducati Lenovo Team</td>
+                    <td>40:51.386</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Enea Bastianini</td>
+                    <td>Ducati Lenovo Team</td>
+                    <td>+0.799</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Jorge Martin</td>
+                    <td>Prima Pramac Ducati</td>
+                    <td>+0.924</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Marc Marquez</td>
+                    <td>Gresini Racing</td>
+                    <td>+2.064</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Pedro Acosta</td>
+                    <td>RedBull GASGAS Tech3</td>
+                    <td>+7.501</td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Kontakt Sekcija -->
+    <section id="kontakt" class="section">
+        <h2>Kontakt</h2>
+        <form>
+            <input type="text" placeholder="Vaše ime" required>
+            <input type="email" placeholder="Vaš email" required>
+            <textarea placeholder="Vaša poruka" required></textarea>
+            <button type="submit" class="btn-primary">Pošalji</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 MotoGP Fan Page. Sva prava zadržana.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
